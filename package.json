@@ -1,0 +1,38 @@
+{
+  "name": "fskeleton-prompt",
+  "version": "0.1.0",
+  "description": "Prompt interface for Fast Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terox/skeleton-prompt"
+  },
+  "keywords": [
+    "skeleton",
+    "fskeleton",
+    "prompt",
+    "ui",
+    "human",
+    "interface",
+    "interface",
+    "cli",
+    "command-line"
+  ],
+  "author": "David Pérez Terol <davidtxnet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terox/skeleton-prompt/issues"
+  },
+  "homepage": "https://github.com/terox/skeleton-prompt",
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.9",
+    "inquirer": "^0.8.0",
+    "lodash": "^3.2.0"
+  }
+}
